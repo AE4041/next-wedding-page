@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "Evans & Sparcil",
     images: [
       {
-        url: "https://evans-sparcil.vercel.app/images/og-image.jpg",
+        url: "/images/pic1.jpg",
         width: 1200,
         height: 600,
         alt: "Digital Invitation",
