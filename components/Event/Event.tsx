@@ -6,7 +6,7 @@ export default function Event() {
         <div className="md:py-24 bg-[#622B14] py-0">
             <div className="max-w-5xl mx-auto px-4 py-10">
                 <div className="text-center mb-16 animate-fade-in">
-                    <h2 className="font-script text-2xl md:text-6xl mb-2 text-[#C08552]">Wedding Schedule</h2>
+                    <h2 className="font-script text-4xl md:text-6xl mb-2 text-[#C08552]">Wedding Schedule</h2>
                     <p className="text-white/70 tracking-wide">What we have prepared for you</p>
                 </div>
 

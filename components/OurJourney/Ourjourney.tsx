@@ -70,8 +70,8 @@ export default function OurJourney() {
                         </div>
 
                         <div className="grow pb-8 group-last:pb-0">
-                            <h3 className="font-script text-lg md:text-3xl text-wedding-text mt-2 mb-3">How We Met</h3>
-                            <p className="font-serif italic text-wedding-text/70 leading-relaxed">
+                            <h3 className="font-script text-xl md:text-3xl text-wedding-text mt-2 mb-3">How We Met</h3>
+                            <p className="font-serif italic text-wedding-text/70 leading-relaxed text-sm md:text-base">
                                 Our paths crossed in the most unexpected way. What began with a lingering glance and a smile slowly turned into the start of something beautiful between us.
                                 From that very moment, our journey began —soft  and filled with a kind of warmth neither of us saw coming.
                             </p>
@@ -92,8 +92,8 @@ export default function OurJourney() {
                         </div>
 
                         <div className="grow pb-8 group-last:pb-0">
-                            <h3 className="font-script text-lg md:text-3xl text-wedding-text mt-2 mb-3">Adventure </h3>
-                            <p className="font-serif italic text-wedding-text/70 leading-relaxed">
+                            <h3 className="font-script text-xl md:text-3xl text-wedding-text mt-2 mb-3">Adventure </h3>
+                            <p className="font-serif italic text-wedding-text/70 leading-relaxed text-sm md:text-base">
                                 We discovered that we shared the same love for adventure and exploring the world around us.
                                 From endless deep conversations to unforgettable road trips, every moment drew us closer,
                                 turning simple memories into something truly special between us.
@@ -115,8 +115,8 @@ export default function OurJourney() {
                         </div>
 
                         <div className="grow pb-8 group-last:pb-0">
-                            <h3 className="font-script text-lg md:text-3xl text-wedding-text mt-2 mb-3">Moving Forward</h3>
-                            <p className="font-serif italic text-wedding-text/70 leading-relaxed">
+                            <h3 className="font-script text-xl md:text-3xl text-wedding-text mt-2 mb-3">Moving Forward</h3>
+                            <p className="font-serif italic text-wedding-text/70 leading-relaxed text-sm md:text-base">
                                 Along the way, we realized this was forever. Through building a life side by side, cheering each other on,
                                 and holding onto each other through every season, our love only grew deeper and stronger with every passing moment
                             </p>
@@ -137,8 +137,8 @@ export default function OurJourney() {
                         </div>
 
                         <div className="grow pb-8 group-last:pb-0">
-                            <h3 className="font-script text-lg md:text-3xl text-wedding-text mt-2 mb-3">This Moment</h3>
-                            <p className="font-serif italic text-wedding-text/70 leading-relaxed">
+                            <h3 className="font-script text-xl md:text-3xl text-wedding-text mt-2 mb-3">This Moment</h3>
+                            <p className="font-serif italic text-wedding-text/70 leading-relaxed text-sm md:text-base">
                                 With hearts overflowing with love and beautiful dreams for our future together,
                                 we planned this joyful moment with so much happiness, and we cannot wait to share it with you.
                             </p>
