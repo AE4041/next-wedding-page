@@ -27,14 +27,14 @@ export default function OurStory() {
                 />
             </div>
             <div className="flex flex-col justify-center items-center">
-                <h3 className="font-bold z-20 text-3xl">Save</h3>
-                <h3 className={`${meaCulpa.className} text-[#C08552] text-6xl sm:text-8xl z-10 transform font-light mt-5 md:-mt-10`}>
+                <h3 className="font-bold font-serif z-20 text-3xl">Save</h3>
+                <h3 className={`${meaCulpa.className} text-[#C08552] text-3xl sm:text-8xl z-10 transform font-light mt-5 md:-mt-10`}>
                     The Date
                 </h3>
             </div>
 
             {dashedLine}
-            <p className="font-script tracking-wider text-black text-5xl md:text-6xl mt-4">
+            <p className="font-script tracking-wider text-black text-2xl md:text-6xl mt-4">
                 27th of June 2026
             </p>
             <p className="mt-7">Banivillas Hostel - Kumasi</p>
