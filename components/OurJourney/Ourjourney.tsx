@@ -14,27 +14,27 @@ export const meaCulpa = Mea_Culpa({
 const teamMembers = [
     {
         id: "1",
-        image: "/icons/bell.png",
+        image: "/images/pic1.jpg",
     },
     {
         id: "2",
-        image: "/icons/bell.png",
+        image: "/images/pic2.jpg",
     },
     {
         id: "3",
-        image: "/icons/bell.png",
+        image: "/images/pic3.jpg",
     },
     {
         id: "4",
-        image: "/icons/bell.png",
+        image: "/images/pic4.jpg",
     },
     {
         id: "5",
-        image: "/icons/bell.png",
+        image: "/images/pic2.jpg",
     },
     {
         id: "6",
-        image: "/icons/bell.png",
+        image: "/images/pic3.jpg",
     },
 ];
 
