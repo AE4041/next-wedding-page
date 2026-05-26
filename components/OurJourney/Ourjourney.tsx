@@ -149,7 +149,7 @@ export default function OurJourney() {
             <div className="w-full bg-[#faf4eb]/95">
                 <TeamCarousel
                     members={teamMembers}
-                    autoPlay={3000}
+                    autoPlay={0}
                     showArrows
                     showDots={false}
                 />
