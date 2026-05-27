@@ -2,6 +2,7 @@
 
 import { Mea_Culpa } from "next/font/google";
 import Image from "next/image";
+import { Icon } from "@iconify/react";
 import { TeamCarousel } from '@/components/lightswind/team-carousel';
 
 export const meaCulpa = Mea_Culpa({
@@ -52,6 +53,7 @@ export default function OurJourney() {
 
                 <div className="flex items-center justify-center gap-4 py-10">
                     <div className="h-px w-16 bg-[#C08552]"></div>
+                    <Icon icon="solar:heart-bold-duotone" className="w-5 h-5 text-amber-800" />
                     <div className="h-px w-16 bg-[#C08552]"></div>
                 </div>
 

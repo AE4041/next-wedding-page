@@ -1,4 +1,5 @@
-
+'use client'
+import { Icon } from "@iconify/react";
 
 export default function Event() {
 
@@ -17,6 +18,7 @@ export default function Event() {
                             <div className="flex flex-col items-center text-center group animate-fade-in">
                                 <div className="bg-[#C08552] cursor-pointer text-wedding-olive px-3 py-1.5 rounded-full text-sm font-medium mb-4 group-hover:bg-[#E4D6A9] transition-colors duration-300">11:00 AM</div>
                                 <div className="w-14 h-14 rounded-full bg-[#C08552] border-2 border-white/30 flex items-center justify-center text-wedding-gold mb-4 shadow-sm group-hover:border-[#E4D6A9] group-hover:scale-110 transition-all duration-300 z-10">
+                                    <Icon icon="mdi-light:home" />
                                 </div>
                                 <h3 className="text-base lg:text-lg text-white mb-1 leading-tight">Arrival of Guests</h3>
                             </div>
