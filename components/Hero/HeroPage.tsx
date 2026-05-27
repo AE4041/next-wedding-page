@@ -1,6 +1,7 @@
 "use client";
 
 import { useRef, useState, useEffect } from "react";
+import { Icon } from "@iconify/react";
 import { Mea_Culpa, Great_Vibes } from "next/font/google";
 
 export const meaCulpa = Mea_Culpa({
@@ -85,7 +86,7 @@ export default function HeroPage() {
                 </h1>
                 <div className="flex items-center justify-center gap-4 md:my-8 my-1.25">
                     <span className="h-px w-12 md:w-20 bg-amber-950" />
-                    <span className="text-amber-500 text-lg drop-shadow-md">✦</span>
+                    <Icon icon="solar:heart-bold-duotone" className="w-5 h-5 text-amber-800" />
                     <span className="h-px w-12 md:w-20 bg-amber-950" />
                 </div>
                 <p className="text-xs md:text-sm tracking-[0.3em] uppercase mb-3 text-foreground">
