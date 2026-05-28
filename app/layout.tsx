@@ -1,13 +1,8 @@
 import type { Metadata } from "next";
-import {  DM_Serif_Display } from "next/font/google";
+import { Cabin } from "next/font/google";
 import "./globals.css";
-// import "./lightswind.css"
 
-const geistSans = DM_Serif_Display({
-  weight: "400",
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+const cabinFont = Cabin({ subsets: ["latin"], variable: "--font-cabin" });
 
 
 export const metadata: Metadata = {
@@ -35,10 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable}  h-full antialiased`}
-    >
+    <html lang="en" className={`${cabinFont.variable} antialiased`}>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );

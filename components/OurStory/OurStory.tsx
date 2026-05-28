@@ -22,12 +22,11 @@ export default function OurStory() {
                     alt="rings"
                     width={95}
                     height={95}
-                    quality={100}
-                    className="mb-5"
+                    className="mb-5 animate-pulse"
                 />
             </div>
             <div className="flex flex-col justify-center items-center">
-                <h3 className="font-bold font-serif z-20 text-3xl">Save</h3>
+                <h3 className="font-bold z-20 text-3xl animate-fade-down">Save</h3>
                 <h3 className={`${meaCulpa.className} text-[#C08552] text-4xl sm:text-8xl z-10 transform font-light mt-3 md:-mt-10`}>
                     The Date
                 </h3>
@@ -38,9 +37,7 @@ export default function OurStory() {
                 27th of June 2026
             </p>
             <p className="mt-7">Banivillas Hostel - Kumasi</p>
-            <div className="w-full flex flex-col sm:flex-row  justify-center items-center gap-8 md:gap-20 lg:gap-24 mt-12 sm:mt-16 lg:mt-20 px-4 z-10">
-
-            </div>
+            <div className="w-full flex flex-col sm:flex-row  justify-center items-center gap-8 md:gap-20 lg:gap-24 mt-12 sm:mt-16 lg:mt-20 px-4 z-10 animate-fade-up animate-ease-in"></div>
 
             <Image
                 src="/images/la1.png"
@@ -56,7 +53,7 @@ export default function OurStory() {
                 width={650}
                 height={0}
                 quality={100}
-                className={`max-md:hidden absolute max-lg:w-62.5 max-xl:w-87.5 top-72 left-16 z-0 opacity-10 transform scale-x-[-1]`}
+                className="max-md:hidden absolute max-lg:w-62.5 max-xl:w-87.5 top-72 left-16 z-0 opacity-10 transform scale-x-[-1]"
             />
         </div>
     )

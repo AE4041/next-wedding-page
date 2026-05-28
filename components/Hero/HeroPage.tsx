@@ -70,7 +70,7 @@ export default function HeroPage() {
                     src="/video/video4.mp4"
                     loop
                     playsInline
-                    muted          // required for autoplay in most browsers
+                    muted
                     preload="auto"
                 />
             </div>
@@ -79,9 +79,7 @@ export default function HeroPage() {
                 <p className="text-xs md:text-sm tracking-[0.3em] uppercase mb-3 text-foreground">
                     We are getting married
                 </p>
-                <h1
-                    className={`${meaCulpa.className} text-5xl md:text-6xl lg:text-8xl mb-2 text-amber-950`}
-                >
+                <h1 className={`${meaCulpa.className} text-5xl md:text-6xl lg:text-8xl mb-2 text-amber-950`}>
                     Evans & Sparcil
                 </h1>
                 <div className="flex items-center justify-center gap-4 md:my-8 my-1.25">
