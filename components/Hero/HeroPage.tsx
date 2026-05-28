@@ -92,13 +92,14 @@ export default function HeroPage() {
                 </p>
             </div>
 
-            {isPlaying && (
-                <button
-                    className="fixed bottom-6 right-6 z-50 w-12 h-12 rounded-full border border-foreground bg-white backdrop-blur-sm flex items-center justify-center text-foreground hover:border-foreground/50 transition-all duration-300"
-                    onClick={stopMedia}
-                    aria-label="Stop music"
-                />
-            )}
+            <button
+                className="fixed bottom-6 right-6 z-50 w-12 h-12 rounded-full border border-foreground bg-white backdrop-blur-sm flex items-center justify-center text-foreground hover:border-foreground/50 transition-all duration-300"
+                onClick={stopMedia}
+                aria-label="Stop music"
+            >
+
+                {isPlaying ? <Icon icon="line-md:volume-high" className="w-5 h-5 text-amber-800" /> : <Icon icon="solar:muted-line-duotone" className="w-5 h-5 text-amber-800" />}
+            </button>
         </div>
     );
 }
