@@ -1,6 +1,7 @@
 "use client";
 
 import Event from "@/components/Event/Event";
+import Footer from "@/components/Footer/Footer";
 import GiftCard from "@/components/Gift/GiftCard";
 import HeroPage from "@/components/Hero/HeroPage";
 import Location from "@/components/Location/Location";
@@ -19,6 +20,7 @@ export default function HomePage() {
       <GiftCard />
       <Location />
       <Rsvp />
+      <Footer />
     </div>
   );
 }
