@@ -18,7 +18,7 @@ export default function Rsvp() {
                     </div>
                 </div>
 
-                <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg space-y-6">
+                {/* <div className="bg-white rounded-2xl p-8 md:p-12 shadow-lg space-y-6">
                     <div className="space-y-5">
                         <div className="">
                             <label htmlFor="" className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-amber-900">Name</label>
@@ -38,17 +38,17 @@ export default function Rsvp() {
                         <Icon icon="tabler:send" className="w-10 h-10 text-[#F3E4C9]/90" />
                         <span>Send Message</span>
                     </button>
-                </div>
+                </div> */}
 
                 <div className="text-center rounded-2xl p-8 bg-[#C08552] my-10">
-                    <h3 className="font-serif text-xl mb-4 text-[#F3E4C9]/80">Questions?</h3>
+                    {/* <h3 className="font-serif text-xl mb-4 text-[#F3E4C9]/80">Questions?</h3> */}
                     <p className="text-wedding-text/70 mb-6 text-[#F3E4C9]/80">
                         Feel free to contact us if you need help organizing your trip.
                     </p>
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
                         <a href="+233545124041" className="flex items-center gap-2 text-[#F3E4C9]/80 hover:text-wedding-accent/80 transition-colors">
                             <Icon icon="solar:phone-line-duotone" className="w-5 h-5 text-[#F3E4C9]/80" />
-                            <span>+233 54512 4041</span>
+                            <span>+233 249 700 544</span>
                         </a>
                     </div>
                 </div>

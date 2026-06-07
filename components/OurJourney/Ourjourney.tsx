@@ -148,14 +148,14 @@ export default function OurJourney() {
                     </div>
                 </div>
             </div>
-            <div className="w-full bg-[#faf4eb]/95">
+            {/* <div className="w-full bg-[#faf4eb]/95">
                 <TeamCarousel
                     members={teamMembers}
                     autoPlay={0}
                     showArrows
                     showDots={false}
                 />
-            </div>
+            </div> */}
         </div>
     )
 }

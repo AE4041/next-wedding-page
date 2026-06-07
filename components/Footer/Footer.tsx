@@ -16,7 +16,7 @@ export default function Footer() {
                 </div>
 
                 <div className="mt-8 pt-8 border-t border-[#C08552]/50 text-[#C08552] text-xs">
-                    <p>#Curare Technologies</p>
+                    <a href="https://wa.me/+233538848624" target="_blank">Powered By Curare</a>
                 </div>
             </div>
         </div>

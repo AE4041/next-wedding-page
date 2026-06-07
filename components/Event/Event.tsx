@@ -24,7 +24,7 @@ export default function Event() {
                             </div>
 
                             <div className="flex flex-col items-center text-center group animate-fade-in">
-                                <div className="bg-[#C08552] cursor-pointer text-wedding-olive px-3 py-1.5 rounded-full text-sm font-medium mb-4 group-hover:bg-[#E4D6A9] transition-colors duration-300">11:30 AM</div>
+                                <div className="bg-[#C08552] cursor-pointer text-wedding-olive px-3 py-1.5 rounded-full text-sm font-medium mb-4 group-hover:bg-[#E4D6A9] transition-colors duration-300">11:15 AM</div>
                                 <div className="w-14 h-14 rounded-full bg-[#C08552] border-2 border-white/30 flex items-center justify-center text-wedding-gold mb-4 shadow-sm group-hover:border-[#E4D6A9] group-hover:scale-110 transition-all duration-300 z-10">
                                     <Icon icon="twemoji:handshake-medium-skin-tone-light-skin-tone" className="w-9 h-9 text-amber-800" />
                                 </div>
@@ -32,7 +32,7 @@ export default function Event() {
                             </div>
 
                             <div className="flex flex-col items-center text-center group animate-fade-in">
-                                <div className="bg-[#C08552] cursor-pointer text-wedding-olive px-3 py-1.5 rounded-full text-sm font-medium mb-4 group-hover:bg-[#E4D6A9] transition-colors duration-300">12:30 PM</div>
+                                <div className="bg-[#C08552] cursor-pointer text-wedding-olive px-3 py-1.5 rounded-full text-sm font-medium mb-4 group-hover:bg-[#E4D6A9] transition-colors duration-300">11:30 AM</div>
                                 <div className="w-14 h-14 rounded-full bg-[#C08552] border-2 border-white/30 flex items-center justify-center text-wedding-gold mb-4 shadow-sm group-hover:border-[#E4D6A9] group-hover:scale-110 transition-all duration-300 z-10">
                                     <Icon icon="noto:ring" className="w-9 h-9 text-amber-800" />
                                 </div>
@@ -40,7 +40,7 @@ export default function Event() {
                             </div>
 
                             <div className="flex flex-col items-center text-center group animate-fade-in">
-                                <div className="bg-[#C08552] cursor-pointer text-wedding-olive px-3 py-1.5 rounded-full text-sm font-medium mb-4 group-hover:bg-[#E4D6A9] transition-colors duration-300">01:00 PM</div>
+                                <div className="bg-[#C08552] cursor-pointer text-wedding-olive px-3 py-1.5 rounded-full text-sm font-medium mb-4 group-hover:bg-[#E4D6A9] transition-colors duration-300">12:45 PM</div>
                                 <div className="w-14 h-14 rounded-full bg-[#C08552] border-2 border-white/30 flex items-center justify-center text-wedding-gold mb-4 shadow-sm group-hover:border-[#E4D6A9] group-hover:scale-110 transition-all duration-300 z-10">
                                     <Icon icon="lets-icons:camera-duotone" className="w-9 h-9 text-amber-800" />
                                 </div>
@@ -69,7 +69,7 @@ export default function Event() {
                                 </div>
                                 <div className="flex-1 pt-1">
                                     <div className="flex items-baseline gap-3 mb-0.5">
-                                        <span className="bg-[#C08552] text-wedding-olive px-2 py-0.5 rounded text-xs font-bold">11:30 AM</span>
+                                        <span className="bg-[#C08552] text-wedding-olive px-2 py-0.5 rounded text-xs font-bold">11:15 AM</span>
                                     </div>
                                     <h3 className="text-base text-[#F3E4C9]/80 /80">Opening Remarks & Welcome</h3>
                                 </div>
@@ -81,7 +81,7 @@ export default function Event() {
                                 </div>
                                 <div className="flex-1 pt-1">
                                     <div className="flex items-baseline gap-3 mb-0.5">
-                                        <span className="bg-[#C08552] text-wedding-olive px-2 py-0.5 rounded text-xs font-bold">12:30 PM</span>
+                                        <span className="bg-[#C08552] text-wedding-olive px-2 py-0.5 rounded text-xs font-bold">11:30 AM</span>
                                     </div>
                                     <h3 className="text-base text-[#F3E4C9]/80 /80">Marriage Discourse</h3>
                                 </div>
@@ -93,7 +93,7 @@ export default function Event() {
                                 </div>
                                 <div className="flex-1 pt-1">
                                     <div className="flex items-baseline gap-3 mb-0.5">
-                                        <span className="bg-[#C08552] text-wedding-olive px-2 py-0.5 rounded text-xs font-bold">12:30 PM</span>
+                                        <span className="bg-[#C08552] text-wedding-olive px-2 py-0.5 rounded text-xs font-bold">12:45 PM</span>
                                     </div>
                                     <h3 className="text-base text-[#F3E4C9]/80 /80">Photo Session</h3>
                                 </div>

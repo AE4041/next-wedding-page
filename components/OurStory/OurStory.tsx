@@ -16,7 +16,7 @@ export default function OurStory() {
 
     return (
         <div className="md:py-32 bg-background py-0 relative w-full flex flex-col items-center z-10 overflow-hidden">
-            <div className="w-full flex flex-col items-center px-4 shrink-0 z-10">
+            {/* <div className="w-full flex flex-col items-center px-4 shrink-0 z-10">
                 <Image
                     src="/icons/dove.png"
                     alt="rings"
@@ -24,7 +24,7 @@ export default function OurStory() {
                     height={95}
                     className="mb-5 animate-pulse"
                 />
-            </div>
+            </div> */}
             <div className="flex flex-col justify-center items-center">
                 <h3 className="font-bold z-20 text-3xl animate-fade-down">Save</h3>
                 <h3 className={`${meaCulpa.className} text-[#C08552] text-4xl sm:text-8xl z-10 transform font-light mt-3 md:-mt-10`}>
@@ -36,7 +36,7 @@ export default function OurStory() {
             <p className="font-script tracking-wider text-black text-3xl md:text-6xl mt-4">
                 27th of June 2026
             </p>
-            <p className="mt-7">Banivillas Hostel - Kumasi</p>
+            <p className="mt-7">Banivillas</p>
             <div className="w-full flex flex-col sm:flex-row  justify-center items-center gap-8 md:gap-20 lg:gap-24 mt-12 sm:mt-16 lg:mt-20 px-4 z-10 animate-fade-up animate-ease-in"></div>
 
             <Image

@@ -40,7 +40,7 @@ export default function GiftCard() {
                             <div className="text-center">
                                 <div className="space-y-2">
                                     <p className="text-xs text-muted-foreground uppercase tracking-wider">Momo Number</p>
-                                    <p className="font-mono text-sm text-foreground/80 tracking-wide select-all">0545124041</p>
+                                    <p className="font-mono text-sm text-foreground/80 tracking-wide select-all">0243758188 - Evans Wireko</p>
                                 </div>
                             </div>
                         </div>
