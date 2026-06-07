@@ -9,23 +9,26 @@ const cabinFont = Cabin({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://evans-sparcil.vercel.app"),
+
   title: "Evans ❤️ Sparcil | Wedding Invitation",
-  description: "We joyfully invite you to celebrate our wedding and share in our special day.",
+
+  description:
+    "We joyfully invite you to celebrate our wedding and share in our special day.",
+
   openGraph: {
-    title: "Evans ❤️ Sparcil | Wedding Invitation",
-    description:"We joyfully invite you to celebrate our wedding and share in our special day.",
     url: "https://evans-sparcil.vercel.app",
-    siteName: "Evans & Sparcil",
+    type: "website",
+    title: "Evans ❤️ Sparcil | Wedding Invitation",
+    description:
+      "We joyfully invite you to celebrate our wedding and share in our special day.",
     images: [
       {
-        url: "https://evans-sparcil.vercel.app/images/preview.jpg",
+        url: "/images/preview.jpg",
         width: 1280,
         height: 1158,
-        alt: "Wedding Invitation",
+        alt: "Evans & Sparcil Wedding Invitation",
       },
     ],
-    locale: "en_US",
-    type: "website",
   },
 
   twitter: {
@@ -34,6 +37,10 @@ export const metadata: Metadata = {
     description:
       "We joyfully invite you to celebrate our wedding and share in our special day.",
     images: ["/images/preview.jpg"],
+  },
+
+  alternates: {
+    canonical: "https://evans-sparcil.vercel.app",
   },
 };
 
