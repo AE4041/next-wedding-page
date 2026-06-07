@@ -36,7 +36,7 @@ export default function GiftCard() {
                     <div className={`${hidden ? "hidden" : "block"} overflow-hidden transition-all duration-300 max-h-96 opacity-100`}>
                         <div className="px-6 pb-6 pt-2 border-t border-border bg-primary-foreground">
                             <p className="text-muted-foreground text-sm leading-relaxed mb-2">If you prefer, the gift can be in cash.</p>
-                            <p className="text-muted-foreground text-sm leading-relaxed mb-6">If this suits you better, you can also make a electronic transfer:</p>
+                            <p className="text-muted-foreground text-sm leading-relaxed mb-6">If this suits you better, you can also make an electronic transfer:</p>
                             <div className="text-center">
                                 <div className="space-y-2">
                                     <p className="text-xs text-muted-foreground uppercase tracking-wider">Momo Number</p>

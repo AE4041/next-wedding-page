@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "Evans & Sparcil",
     images: [
       {
-        url: "https://evans-sparcil.vercel.app/images/pic1.jpg",
+        url: "https://evans-sparcil.vercel.app/images/preview.jpg",
         width: 1200,
         height: 630,
         alt: "Wedding Invitation",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "Evans ❤️ Sparcil | Wedding Invitation",
     description:
       "We joyfully invite you to celebrate our wedding and share in our special day.",
-    images: ["/images/pic4.jpg"],
+    images: ["/images/preview.jpg"],
   },
 };
 

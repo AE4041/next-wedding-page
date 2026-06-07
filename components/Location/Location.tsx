@@ -45,8 +45,10 @@ export default function Location() {
                 </div>
 
                 <div className="text-center bg-[#622B14] rounded-xl md:rounded-2xl p-5 sm:p-6 md:p-8">
-                    <h3 className="font-serif text-xl md:text-2xl text-[#F3E4C9]/80  mb-3 md:mb-4">Dress Code</h3>
-                    <div className="text-[#F3E4C9]/80 text-xs md:text-sm px-2">We kindly ask you to dress elegantly for our celebration.</div>
+                    <h3 className="font-serif text-xl md:text-2xl text-[#F3E4C9]/80  mb-3 md:mb-4">Attire Information</h3>
+                    <div className="text-[#F3E4C9]/80 text-xs md:text-sm px-2">
+                        <p>We kindly leave the choice of attire to our guests, though we invite you to consider these colors if you do like to blend beautifully with our wedding ambiance.</p>
+                    </div>
 
                     <div className="flex items-center gap-4 justify-center mt-5">
                         <div className="flex flex-col items-center text-center group animate-fade-in">
